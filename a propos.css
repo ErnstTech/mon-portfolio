@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 39);
+    background-color: rgb(0, 4, 44);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+table {
+    width: 98.5%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    
+   
+}
+
+
+table i{
+    padding: 5px;
+    color: goldenrod;
+}
+
+th i{
+    padding-left: 10px;
+}
+
+table td{
+    padding-left: 10px;
+    background-color: rgb(36, 35, 35);
+}
+
+.tarifs {
+    margin: 10px;
+    
+}
+
+
+.tarifs  {
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 15px solid gray;
+    background-color: rgba(97, 84, 84, 0.192);
+    padding: 10px;
+}
+
+
+
+th, td {
+    border: 1px solid #686666;
+    padding: 10px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    
+}
+
+th {
+    background-color: rgb(2, 65, 44);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+.media{
+    display: flex;
+    justify-content: center;
+   gap: 10px;
+   
+}
+
+.media img{
+    width: 50%;
+
+}
+
+.media video{
+    width: 50%;
+}
+
+.mitan{
+    flex: 1;
+}
+
+.icon{
+    padding: 10px;
+}
+
+.icon h3{
+    background-color: rgb(2, 65, 44);
+    color: white;
+    width: 22%;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.intwodiksyon{
+    width: 45%;
+    margin-top: 70px;
+}
+.intwodiksyon p{
+    padding: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    text-align: start;
+}
+
+.Konpetans{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+    
+   
+}
+
+
+
+.pousan{
+    
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    width: 40%;
+    color: white;
+    
+
+}
+
+.pousantaj1{
+    background-color: rgb(252, 122, 0);
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+
+
+.pousantaj2{
+    background-color: rgb(17, 73, 56);
+    width: 75%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    word-wrap: break-word;
+    height: 65%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pousantaj3{
+    background-color: gray;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    word-wrap: break-word;
+    height: 65%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pousantaj4{
+    background-color: red;
+    width: 42%;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detay{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+details{
+    margin: 10px;
+    background-color: rgb(17, 73, 56);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espace{
+    flex: 1;
+}
+
+nav{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    
+   
+    
+}
+nav a{
+  
+    gap: 20px;
+    color: rgb(255, 255, 255) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+    color: goldenrod ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+header{
+    padding: 5px;
+    background-color: rgb(0, 4, 44);
+    margin-bottom: 30px;
+    
+    border-bottom: rgb(54, 54, 54) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+        
+   
+
+}
+
+header img{
+    
+    width: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+.responsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fil (200px,1fr));
+}
+
+footer{
+   
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+   border-top: rgb(54, 54, 54) 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+
+}
+
+footer h1{
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.contact{
+    text-align: justify;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact h2{
+    color: white;
+    
+}
+
+.contact a{
+    color: goldenrod;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.contact li{
+    list-style: none;
+    color: goldenrod;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Reseau h2{
+    font-weight: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Reseau h3{
+    
+font-weight: bolder;
+color: goldenrod;
+margin-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Reseau a{
+text-decoration: none;
+
+
+}
+
+.copiright{
+    margin-top: 10px;
+}
+
+.copiright img{
+    width: 20px;
+    
+}
+
+
+.copiright h1{
+  
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(29, 61, 51) ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:768px)
+{
+    .media{
+        display: flex;
+    justify-content: center;
+       gap: 10px;
+       
+    }
+
+    .media img{
+        width: 50%;
+    
+    }
+    
+    .media video{
+        width: 50%;
+    }
+
+    
+
+
+    .icon h3{
+        background-color: rgb(2, 65, 44);
+        color: white;
+        width: 95%;
+        padding: 10px;
+        border-radius: 0px 10px 10px 0px;
+        text-align: center;
+        
+    }
+
+    .intwodiksyon{
+        width: 100%;
+            margin-top: 100px;
+        
+    }
+    .intwodiksyon p{
+        padding: 10px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .Konpetans{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 97%;
+        
+
+    }
+
+
+    .pousan{
+    
+        background-color: white;
+        margin: 10px;
+        width: 97%;
+    
+    }
+
+    .pousantaj1{
+        height: 48%;
+       
+    }
+
+
+    .pousantaj2{
+        background-color: rgb(17, 73, 56);
+        width: 75%;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        word-wrap: break-word;
+        height: 48%;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pousantaj3{
+        background-color: gray;
+        width: 80%;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        word-wrap: break-word;
+        height: 48%;
+    
+    }
+
+
+
+    .detay{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+summary{
+    width: 100%;
+}
+
+    
+
+    details{
+        width: 600;
+    }
+
+    .boite{
+        display: grid;
+        grid-template-columns: repeat(auto-fil,(400px,1fr));
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: repeat(auto-fil,(200px,1fr));
+        background-color: black;
+       
+    }
+
+    header img{
+        padding-bottom: 10px;
+    }
+
+    ul{
+        font-size: 10px;
+        display: block;
+    }
+
+
+    footer{
+        display: block;
+   
+
+    }
+
+    .kolaborasyon h2{
+        padding: 10px;
+        width: 94%;
+        
+    }
+
+    .contact{
+        margin-bottom: 10px;
+    }
+
+    nav li{
+    display: inline;
+    padding: 10px;
+    color: goldenrod ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+}
